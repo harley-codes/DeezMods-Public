@@ -18,10 +18,11 @@ highlight_code = true
 [extra]
 # Put all your custom variables here
 # Goyo Config
-logo_text = "Goyo"
-logo_image_path = "images/goyo.png"
-footer_html = "Powered by <a href='https://www.getzola.org'>Zola</a> and <a href='https://github.com/hahwul/goyo'>Goyo</a>"
+logo_text = "DeezMods"
+#logo_image_path = "images/goyo.png"
+footer_html = "Yearn for the mines! ⛏️"
 default_thumbnail = "images/default_thumbnail.jpg"
+disable_theme_toggle = true
 twitter_site = "@hahwul"
 twitter_creator = "@hahwul"
 default_colorset = "dark"
@@ -30,9 +31,24 @@ sidebar_expand_depth = 1
 disable_root_sidebar_hide = false
 
 nav = [
-    { name = "Documents", url = "/introduction", type = "url", icon = "fa-solid fa-book" },
-    { name = "GitHub", url = "https://github.com/hahwul/goyo", type = "url", icon = "fa-brands fa-github" },
+    { name = "Wiki", url = "/introduction", type = "url", icon = "fa-solid fa-book" },
     { name = "Links", type = "dropdown", icon = "fa-solid fa-link", members = [
-        { name = "Creator Blog", url = "https://www.hahwul.com", type = "url", icon = "fa-solid fa-fire-flame-curved" },
+        { name = "CurseForge: Creator", url = "https://www.curseforge.com/members/harley_codes", type = "url", icon = "fa-solid fa-fire-flame-curved" },
+		{ name = "GitHub", url = "https://github.com/harley-codes/DeezMods-Public", type = "url", icon = "fa-brands fa-github" },
     ] },
 ]
+
+# [extra.comments]
+# enabled = true
+# system = "giscus"
+# repo = "hahwul/goyo"
+# repo_id = "R_kgDOPHnqwg"
+# category = "General"
+# category_id = "DIC_kwDOPHnqws4CspmC"
+# mapping = "pathname"
+# strict = "0"
+# reactions_enabled = "1"
+# emit_metadata = "0"
+# input_position = "bottom"
+# theme = "catppuccin_mocha"
+# lang = "en"
