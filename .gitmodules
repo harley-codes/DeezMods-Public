@@ -1,0 +1,3 @@
+[submodule "wiki/themes/goyo"]
+	path = wiki/themes/goyo
+	url = https://github.com/hahwul/goyo
